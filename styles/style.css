@@ -1,0 +1,171 @@
+@import url(reset.css);
+@import url(font.css);
+
+body {
+  width: 100%;
+  height: 100%;
+  background-image: url(../assets/img/woman-bcg.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.header {
+  width: 100%;
+  margin-top: 48px;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  max-width: 1399px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.nav_bar {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  margin-left: 114px;
+  margin-right: auto;
+}
+
+.nav_link {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 160%;
+  color: #ffffff;
+  position: relative;
+}
+
+.nav_link:hover::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  background-color: #fff;
+  bottom: 0;
+  left: 0;
+  transition: 0.3s;
+}
+
+.header_btn,
+.tel_number {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 160%;
+  color: #ffffff;
+}
+
+.header_btn {
+  padding: 8px 20px;
+  border: 1px solid #fff;
+  border-radius: 32px;
+  margin-right: 24px;
+  transition: 0.3s;
+}
+
+.header_btn:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.header_btn:active {
+  transform: translateY(2px);
+}
+
+.promo .wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.promo_title {
+  font-family: "Dela Gothic One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 118%;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  max-width: 489px;
+  margin-top: 186px;
+  margin-bottom: 16px;
+}
+
+.promo_text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 160%;
+  color: #ffffff;
+  max-width: 464px;
+  margin-bottom: 24px;
+}
+
+.promo_menu {
+  display: flex;
+  align-items: center;
+  gap: 31px;
+  margin-bottom: 175px;
+}
+
+.pink_btn {
+  background-color: #e32966;
+  box-shadow: 0px 9px 26px rgba(227, 41, 102, 0.3);
+  border-radius: 32px;
+  padding: 12px 27px;
+  color: #fff;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 160%;
+  transition: 0.3s;
+}
+
+.pink_btn:hover {
+  background-color: transparent;
+  outline: 1.5px solid #e32966;
+}
+
+.pink_btn:active {
+  transform: translateY(2px);
+}
+
+.pink_btn_outline {
+  border: 1.5px solid #e32966;
+  border-radius: 32px;
+  padding: 12px 30px;
+  color: #fff;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 160%;
+  transition: 0.3s;
+}
+
+.pink_btn_outline:hover {
+  background-color: #e32966;
+  outline: none;
+}
+
+.pink_btn_outline:active {
+  transform: translateY(2px);
+}
+
+.socials {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 67px;
+}
